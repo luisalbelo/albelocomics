@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "MyFonts";
+    src: url(Fonts/FSEX300.ttf) format("truetype");
+    font-weight: normal;
+    font-size: 50px;
+}
+body{
+    font-family: "MyFonts";
+    background-color: #131d2e;
+    color: white;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+
+section{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e48d0a;
+    padding: 0%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+nav a{
+    font-family: "MyFonts";
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+button{
+    border: #e48d0a;
+    font-family: "MyFonts";
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+    background-color: #1e74f5;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: "MyFonts";
+    font-size: 60px;
+}
+/*--------------------------this is responsive for imagen------------------------------*/
+.banner{
+    max-width: 100%;
+    height: auto;
+}
+
+.followme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    scale: 30%;
+    height: auto;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+}
+.title{
+    text-align: center;
+    color: #e48d0a;
+    font-size: 50px;
+    
+}
+.TextAbout{
+    text-align: center;
+    font-size: 30px;
+/*----------------------------This is the portrait of games----------------------*/
+}
+.future{
+    filter: brightness(0.3);
+}
+.portrait:hover{
+    transform: translateY(-3px);
+
+}
+.portraitsection{
+    max-width: 100%;
+    height: auto;
+    scale: 50%;
+}
+/*---------------------FOOTER--------------------------*/
+footer{
+    background-color: #ee8308;
+    font-family: "MyFonts";
+    font-size: 16px;
+    position: static;
+    text-align: center;
+    padding: 1%;
+    color: aliceblue;
+}
+.imgdeveloper{
+    width: 15%;
+    height: auto;
+    border-radius: 20%;
+}
+h6{
+    font-size: 30px;
+}
