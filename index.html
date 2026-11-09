@@ -1,23 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="uft-8">
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Albelo Comics</title>
+        <meta name="description" content="Read the first chapter for free on Webtoon. Get the full story on GlobalComix.">
+        
+        <!--Open Graph for social sharing-->
+        <meta property="og:title" content="Albelo Comics">
+        <meta property="og:description" content="Read it now.">
+        <!--<meta property="og:image" content="assets/hero-bg.jpg">-->
+        <meta property="og:type" content="website">
+
+        <link rel="icon" href="assets/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>Albelo Comics</h1>
-        </header>
-        <main>
-            <section>
-                <h2>Do you like comics?</h2>
-                <p>This is the beginning of a something special, this is my dream coming true.</p>
-            </section>
-        </main>
-        <footer>
 
+        <!--  NAV  -->
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="#" class="nav-logo">
+                    <img src="assets/logo.png" alt="Logo" class="logo-img">
+                    <span class="logo-text">Albelo Comics</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#read">Read Free</a></li>
+                    <li><a href="#full">Full Story</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--  HERO  -->
+        <header class="hero" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">BETRAYER &amp; BLOOD </h1>
+                <p class="hero-subtitle">A dark saga. First chapter free</p>
+                <div class="hero-buttons">
+                    <a href="" class="btn btn-primary" target="_blank" rel="noopener">Read Chapter 1 - Free</a>
+                    <a href="" class="btn btn-secondary" target="_blank" rel="noopener">Get the Full Story</a>
+                </div>
+                <p class="age-rating">╝ Mature Content</p>
+            </div>
+        </header>
+        <!--  READ FREE SECTION  -->
+        <section class="section" id="read">
+            <div class="container">
+                <h2 class="section-title">Start Reading</h2>
+                <p class="section-text">The first chapter is completely free on Webtoon and GlobalComix. No account required to start.</p>
+                <a href="" class="btn btn-primary" target="_blank" rel="noopener">Open on Webtoon</a>
+                <a href="" class="btn btn-primary" target="_blank" rel="noopener">Open on GlobalComix</a>
+            </div>
+        </section>
+
+        <!--  FULL STORY SECTION  -->
+        <section class="section section-dark" id="full"> 
+            <div class="container">
+                <h2 class="section-title">The Full Story</h2>
+                <p class="section-text">
+                    Unlock every chapter, including exclusive bonus content, on Webtoon and GlobalComix.
+                </p>
+                <a href="" class="btn btn-secondary" target="_blank" rel="noopener">Continue on Webtoon</a>
+                <a href="" class="btn btn-secondary" target="_blank" rel="noopener">Continue on GlobalComix</a>
+            </div>
+        </section>
+
+        <!--  ABOUT SECTION  -->
+        <section class="section" id="about">
+            <div class="container about-container">
+                <img src="assets/photo_Author.jpg" alt="Author avatar" class="about-avatar">
+                <div class="about-text">
+                    <h2 class="section-title">About the Creator</h2>
+                    <p>
+                        Hello my name is Luis Albelo Sánchez I´m an idependent comic artist.
+                    </p>
+                    <p class="about-links">
+                        <a href="#" target="_blank" rel="noopener">X</a>
+                        <a href="#" target="_blank" rel="noopener">Instagram</a>
+                        <a href="#" target="_blank" rel="noopener">Discord</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--   FOOTER   -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; <span id="year"></span>Albelo Comics. All rights reserved</p>
+                <p class="footer-rating">This work contains graphic violence. Reader discretion advised. 18+</p>
+            </div>
         </footer>
-        <script src="behaivour.js"></script>
+        <script src="behavior.js"></script>
     </body>
 </html>
