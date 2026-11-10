@@ -18,7 +18,7 @@
     --text-muted: #8a8a9a;
     --border: #2a2a3a;
     --font-display: 'Courier New', monospace;
-    --font-body: 'Georgia', serif;
+    --font-body: 'Courier New', monospace;
     --max-width: 1100px;
 }
 html{
@@ -266,6 +266,10 @@ body{
 
 .about-links a:hover{
     text-decoration: underline;
+}
+/*-------------------------------IMG ICONS SOCIAL MEDIA--------------------------------*/
+.img-icon{
+    flex-wrap: wrap;
 }
 
 /*   FOOTER   */
