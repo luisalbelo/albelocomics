@@ -100,7 +100,7 @@ body{
     justify-content: center;
     text-align: center;
     padding: 6rem 1.5rem 4rem;
-    background: url(assets/logo.png) center/cover no-repeat;
+    background: url(assets/bg_body.png) center/cover no-repeat;
 }
 
 .hero-overlay{
